@@ -1,0 +1,75 @@
+* {
+  padding: 0%;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.app {
+  background-color: #0f4c75;
+  width: 400px;
+  margin: 150px auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+div.password {
+  display: grid;
+  grid-template-columns: auto min-content;
+  border-radius: 10px;
+  overflow: hidden;
+}
+div.password input {
+  outline: none;
+  padding: 7px 10px;
+  background-color: #3282bb;
+  border: 0;
+  color: #fff;
+}
+div.password input::placeholder {
+  color: #fff;
+  font-size: 15px;
+}
+#btn {
+  width: 70px;
+  font-size: 15px;
+  background-color: #126298;
+  border: 0;
+  color: #fff;
+}
+div.range {
+  margin: 10px 0px;
+  display: grid;
+  grid-template-columns: 1fr min-content;
+}
+div.range span {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-left: 20px;
+  min-width: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+div.options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+div.options label {
+  display: block;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+div.options label {
+  color: #fff;
+}
+#btn-generate {
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #126298;
+  border: 0;
+  color: #fff;
+  font-size: large;
+}
+#span {
+  color: #fff;
+}
